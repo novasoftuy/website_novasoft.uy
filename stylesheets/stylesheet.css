@@ -1,4 +1,11 @@
-* {
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Ajustar líneas largas">
+  </head>
+  <body>
+    <pre>* {
   box-sizing: border-box; }
 
 body {
@@ -56,8 +63,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+ }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -132,7 +138,7 @@ a {
   background-color: #f3f6fa;
   border: solid 1px #dce6f0;
   border-radius: 0.3rem; }
-  .main-content pre > code {
+  .main-content pre &gt; code {
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
@@ -171,9 +177,9 @@ a {
   margin-left: 0;
   color: #819198;
   border-left: 0.3rem solid #dce6f0; }
-  .main-content blockquote > :first-child {
+  .main-content blockquote &gt; :first-child {
     margin-top: 0; }
-  .main-content blockquote > :last-child {
+  .main-content blockquote &gt; :last-child {
     margin-bottom: 0; }
 .main-content table {
   display: block;
@@ -243,3 +249,6 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+</pre>
+  </body>
+</html>
